@@ -10,6 +10,8 @@ import (
 
 // used to create my files using format dd-MM-yyyy.md
 // but wanted to have yyyy-MM-dd.md format for proper ordering reasons
+// so wrote this script to automate that renaming
+
 func main() {
 	// dir in which the files are to be renamed
 	dir := `/Users/devamshi/Documents/repos/scripts/test_in_dir/`
